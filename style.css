@@ -1,0 +1,37 @@
+/* Default set */
+*{ padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+/* Bootstrap overrides  */
+
+
+/* MY SET */
+div.jumbotron{
+    background-color: #7551FE;
+}
+div.secondBarIcon{
+    background-color:#FFEEDA;
+    color:#BA6600;
+    height:40px;
+    width: 40px;
+}
+img.userIcon {
+    height: 40px;
+    width:40px;
+    background-color:green;
+    object-fit: contain;
+}
+button.notificIcon {
+    height: 40px;
+    width: 40px;
+}
+button.notificIcon>div{
+    background-color: lightgrey;
+}
+img.userImage{
+    height: 30px;
+}
+.bg-Viola{
+    background-color: #7551FE;
+}
