@@ -163,11 +163,11 @@
         </div>
     </div>
 <!-- carosel card course  ------------------------------------------------------------------------>
-    <div class="container-fluid bg-light pt-5 border border-top">
+    <div class="container-fluid bg-light py-5 border-top">
         <div class="container px-4 pb-3">
             <h4 class="mb-3">Reccommended to you</h4>         
             <div class="row g-4">
-                <div class="col"><div class="card h-100 p-0 overflow-hidden rounded-3">
+                <div class="col"><div class="card courseBox h-100 p-0 overflow-hidden rounded-3">
                     <img src="assets/course-graphql.jpg" class="img-fluid" alt="graphql">
                     <div class="card-body">
                       <p class="card-title">GraphQL: introduction to graphQL for beginners</p>
@@ -193,10 +193,12 @@
                         <img src="assets/avatar-1.jpg" alt="" class="userImage rounded-circle">
                         <span clas="">Brooklyn Simmons</span>
                       </div>
-                      <i class="far fa-bookmark"></i>
+                      <div class="userBookmark">
+                        <i class="fas fa-bookmark"></i>
+                      </div>
                     </div>
                 </div></div>
-                <div class="col"><div class="card h-100 p-0 overflow-hidden rounded-3">
+                <div class="col"><div class="card courseBox h-100 p-0 overflow-hidden rounded-3">
                   <img src="assets/course-javascript.jpg" class="img-fluid" alt="graphql">
                   <div class="card-body">
                     <p class="card-title">A Complete Beginner's Guide to JavaScript</p>
@@ -222,10 +224,12 @@
                       <img src="assets/avatar-2.jpg" alt="" class="userImage rounded-circle">
                       <span clas="">Jenny Wilson</span>
                     </div>
-                    <i class="far fa-bookmark"></i>
+                    <div class="userBookmark">
+                      <i class="far fa-bookmark"></i>
+                    </div>
                   </div>
                 </div></div>
-                <div class="col"><div class="card h-100 p-0 overflow-hidden rounded-3">
+                <div class="col"><div class="card courseBox h-100 p-0 overflow-hidden rounded-3">
                 <img src="assets/course-node.jpg" class="img-fluid" alt="graphql">
                 <div class="card-body">
                   <p class="card-title">Beginning Node.js, Express & MongoDB Development</p>
@@ -251,10 +255,12 @@
                     <img src="assets/avatar-3.jpg" alt="" class="userImage rounded-circle">
                     <span clas="">Sina Ray</span>
                   </div>
-                  <i class="far fa-bookmark"></i>
+                  <div class="userBookmark">
+                    <i class="far fa-bookmark"></i>
+                  </div>
                 </div>
                 </div></div>
-                <div class="col"><div class="card h-100 p-0 overflow-hidden rounded-3">
+                <div class="col"><div class="card courseBox h-100 p-0 overflow-hidden rounded-3">
               <img src="assets/course-laravel.jpg" class="img-fluid" alt="graphql">
               <div class="card-body">
                 <p class="card-title">Laravel: The Ultimate Beginner's Guide to Learn</p>
@@ -280,94 +286,144 @@
                   <img src="assets/avatar-4.jpg" alt="" class="userImage rounded-circle">
                   <span clas="">Sobo Tikhan</span>
                 </div>
-                <i class="far fa-bookmark"></i>
+                <div class="userBookmark">
+                  <i class="far fa-bookmark"></i>
+                </div>
               </div>
-                </div>  </div>
+                </div></div>
             </div>
         </div>
     </div>
-    <div class="container-fluid bg-light pt-5">
-          <div class="container">
-            <h4 class="mb-3">Most Popular</h4>
-          </div>
-          <div id="carouselCard" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner bg-success">
-              <div class="carousel-item active">
-                <div class="card p-0 overflow-hidden rounded-3 col m-2 w-50">
-                  <img src="assets/course-laravel.jpg" class="img-fluid" alt="graphql">
+    <div class="container-fluid bg-light py-5">
+      <div class="container px-4 pb-3">
+          <h4 class="mb-3">Most Popular</h4>         
+          <div class="row g-4">
+              <div class="col"><div class="card courseBox h-100 p-0 overflow-hidden rounded-3">
+                  <img src="assets/course-graphql.jpg" class="img-fluid" alt="graphql">
                   <div class="card-body">
-                    <p class="card-title">Laravel: The Ultimate Beginner's Guide to Learn</p>
+                    <p class="card-title">GraphQL: introduction to graphQL for beginners</p>
                     <p class="card-text mt-1">
-                      <i class="far fa-clock"></i><span class="ms-2">1h 00m</span>
-                      <i class="fas fa-signal text-danger"></i><span class="ms-2">Beginner</span>
+                      <i class="far fa-clock"></i><span class="ms-2">2h 40m</span>
+                      <i class="fas fa-signal text-danger"></i><span class="ms-2">Advanced</span>
                     </p>
                   </div>
                   <div class="card-body text-warning">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <span class="text-secondary">  (2500)</span>
-                  </div>
-                  <div class="card-body">
-                    <span class="text-bold fs-3 me-2">$170</span>
-                    <span class="text-decoration-line-through text-secondary">$220</span>
-                  </div>                    
-                  <div class="card-body border-top border-1 d-flex justify-content-between align-items-baseline">
-                    <div class="userBox">
-                      <img src="assets/avatar-4.jpg" alt="" class="userImage rounded-circle">
-                      <span clas="">Sobo Tikhan</span>
-                    </div>
-                    <i class="far fa-bookmark"></i>
-                  </div>
-                    </div> 
-              </div>
-              <div class="carousel-item">
-                <div class="card p-0 overflow-hidden rounded-3 col m-2 w-50">
-                  <img src="assets/course-node.jpg" class="img-fluid" alt="graphql">
-                  <div class="card-body">
-                    <p class="card-title">Beginning Node.js, Express & MongoDB Development</p>
-                    <p class="card-text mt-1">
-                      <i class="far fa-clock"></i><span class="ms-2">2h 00m</span>
-                      <i class="fas fa-signal text-danger"></i><span class="ms-2">Intermediate</span>
-                    </p>
-                  </div>
-                  <div class="card-body text-warning">
-                    <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="far fa-star"></i>
-                    <span class="text-secondary">  (15700)</span>
+                    <i class="far fa-star"></i>
+                    <span class="text-secondary">  (1500)</span>
                   </div>
                   <div class="card-body">
-                    <span class="text-bold fs-3 me-2">$800</span>
-                    <span class="text-decoration-line-through text-secondary">$950</span>
+                    <span class="text-bold fs-3 me-2">$500</span>
+                    <span class="text-decoration-line-through text-secondary">$600</span>
                   </div>                    
                   <div class="card-body border-top border-1 d-flex justify-content-between align-items-baseline">
                     <div class="userBox">
-                      <img src="assets/avatar-3.jpg" alt="" class="userImage rounded-circle">
-                      <span clas="">Sina Ray</span>
+                      <img src="assets/avatar-1.jpg" alt="" class="userImage rounded-circle">
+                      <span clas="">Brooklyn Simmons</span>
                     </div>
+                    <div class="userBookmark">
+                      <i class="fas fa-bookmark"></i>
+                    </div>
+                  </div>
+              </div></div>
+              <div class="col"><div class="card courseBox h-100 p-0 overflow-hidden rounded-3">
+                <img src="assets/course-javascript.jpg" class="img-fluid" alt="graphql">
+                <div class="card-body">
+                  <p class="card-title">A Complete Beginner's Guide to JavaScript</p>
+                  <p class="card-text mt-1">
+                    <i class="far fa-clock"></i><span class="ms-2">4h 10m</span>
+                    <i class="fas fa-signal text-danger"></i><span class="ms-2">Advanced</span>
+                  </p>
+                </div>
+                <div class="card-body text-warning">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span class="text-secondary">  (7500)</span>
+                </div>
+                <div class="card-body">
+                  <span class="text-bold fs-3 me-2">$700</span>
+                  <span class="text-decoration-line-through text-secondary">$850</span>
+                </div>                    
+                <div class="card-body border-top border-1 d-flex justify-content-between align-items-baseline">
+                  <div class="userBox">
+                    <img src="assets/avatar-2.jpg" alt="" class="userImage rounded-circle">
+                    <span clas="">Jenny Wilson</span>
+                  </div>
+                  <div class="userBookmark">
                     <i class="far fa-bookmark"></i>
                   </div>
-                  </div>
+                </div>
+              </div></div>
+              <div class="col"><div class="card courseBox h-100 p-0 overflow-hidden rounded-3">
+              <img src="assets/course-node.jpg" class="img-fluid" alt="graphql">
+              <div class="card-body">
+                <p class="card-title">Beginning Node.js, Express & MongoDB Development</p>
+                <p class="card-text mt-1">
+                  <i class="far fa-clock"></i><span class="ms-2">2h 00m</span>
+                  <i class="fas fa-signal text-danger"></i><span class="ms-2">Intermediate</span>
+                </p>
               </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
+              <div class="card-body text-warning">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <span class="text-secondary">  (15700)</span>
+              </div>
+              <div class="card-body">
+                <span class="text-bold fs-3 me-2">$800</span>
+                <span class="text-decoration-line-through text-secondary">$950</span>
+              </div>                    
+              <div class="card-body border-top border-1 d-flex justify-content-between align-items-baseline">
+                <div class="userBox">
+                  <img src="assets/avatar-3.jpg" alt="" class="userImage rounded-circle">
+                  <span clas="">Sina Ray</span>
+                </div>
+                <div class="userBookmark">
+                  <i class="far fa-bookmark"></i>
+                </div>
+              </div>
+              </div></div>
+              <div class="col"><div class="card courseBox h-100 p-0 overflow-hidden rounded-3">
+            <img src="assets/course-laravel.jpg" class="img-fluid" alt="graphql">
+            <div class="card-body">
+              <p class="card-title">Laravel: The Ultimate Beginner's Guide to Learn</p>
+              <p class="card-text mt-1">
+                <i class="far fa-clock"></i><span class="ms-2">1h 00m</span>
+                <i class="fas fa-signal text-danger"></i><span class="ms-2">Beginner</span>
+              </p>
+            </div>
+            <div class="card-body text-warning">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <span class="text-secondary">  (2500)</span>
+            </div>
+            <div class="card-body">
+              <span class="text-bold fs-3 me-2">$170</span>
+              <span class="text-decoration-line-through text-secondary">$220</span>
+            </div>                    
+            <div class="card-body border-top border-1 d-flex justify-content-between align-items-baseline">
+              <div class="userBox">
+                <img src="assets/avatar-4.jpg" alt="" class="userImage rounded-circle">
+                <span clas="">Sobo Tikhan</span>
+              </div>
+              <div class="userBookmark">
+                <i class="far fa-bookmark"></i>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCard" data-bs-slide="prev">
-              <span class="fs-2" aria-hidden="true"><i class="fas fa-chevron-circle-left"></i></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselCard" data-bs-slide="next">
-              <span class="fs-2" aria-hidden="true"><i class="fas fa-chevron-circle-right"></i></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+              </div></div>
           </div>
-      
+      </div>
   </div>
     <div class="container-fluid border-top border-1 bg-light">
         <div class="container d-flex align-items-baseline justify-content-between flex-wrap text-secondary">

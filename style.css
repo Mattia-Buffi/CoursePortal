@@ -35,3 +35,18 @@ img.userImage{
 .bg-Viola{
     background-color: #7551FE;
 }
+div.courseBox:hover{
+    transform: scale(1.07);
+    box-shadow: 0 0 1rem rgba(117,81,254,0.85);
+    transition: transform .1s ease-out 0.1s,box-shadow .1s ease-out 0.1s;
+}
+div.courseBox{
+    box-shadow:0 .5rem 1rem rgba(0,0,0,.15);
+}
+.overBookmark{
+    transform: rotate(1turn);
+    transition: transform .3s linear 0.1s, color 0.2s linear 0.4s ;
+}
+div.userBookmark {
+    color:#7551FE;
+}
